@@ -1,0 +1,17 @@
+footer {
+  background: #3d4956;
+  color: white;
+  min-height: 10vh;
+  padding: 4rem;
+  @include flex(flex-start, center, row);
+  flex-wrap: wrap;
+  ul {
+    flex: 1 1 40rem;
+    @include flex(space-around, center, row);
+  }
+  h4 {
+    flex: 1 1 40rem;
+    font-weight: 400;
+    font-size: 1.8rem;
+  }
+}

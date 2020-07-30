@@ -18,20 +18,21 @@
         </div>
         <ul>
           <li><a href="../index.html">Home</a></li>
-          <li><a class="active" href="./index.html">Projects</a></li>
-          <li><a href="../contact/">Contact</a></li>
+          <li><a href="../projects/">Projects</a></li>
+          <li><a class="active" href="./index.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <section class="projects">
-      <div class="explory">
-        <h2>Explory</h2>
-        <img src="../img/explory.jpg" alt="explory-project" />
-      </div>
-      <div class="photo">
-        <h2>Karin Friedmann</h2>
-        <img src="../img/karin-friedmann.jpg" alt="photo-project" />
-      </div>
+    <section class="form-section">
+      <form action="">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" required />
+        <label for="message">Nachricht</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <button type="submit">Senden</button>
+      </form>
     </section>
     <footer>
       <h4>Sven Kusebauch &copy; 2020</h4>
