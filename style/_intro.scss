@@ -23,13 +23,13 @@ nav {
 }
 
 .intro {
-  min-height: 90vh;
+  min-height: 88vh;
   width: 90%;
   margin: auto;
   @include flex(space-between, center, row);
   flex-wrap: wrap;
   h2 {
-    font-size: 8rem;
+    font-size: 6rem;
     padding-top: 2rem;
     background: $gradient;
     background-clip: text;
@@ -39,7 +39,7 @@ nav {
     display: inline-block;
   }
   h3 {
-    font-size: 6rem;
+    font-size: 4rem;
     padding: 2rem 0rem;
   }
   p {

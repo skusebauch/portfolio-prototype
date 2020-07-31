@@ -10,8 +10,8 @@ barba.init({
       beforeEnter() {
         home.classList.add("active");
         home.href = "./index.html";
-        projects.href = "../projects/index.html";
-        contact.href = "../contact/index.html";
+        projects.href = "../projects/";
+        contact.href = "../contact/";
       },
       beforeLeave() {
         home.classList.remove("active");
@@ -23,7 +23,7 @@ barba.init({
         projects.classList.add("active");
         home.href = "../index.html";
         projects.href = "./index.html";
-        contact.href = "../contact/index.html";
+        contact.href = "../contact/";
       },
       beforeLeave() {
         projects.classList.remove("active");
@@ -34,7 +34,7 @@ barba.init({
       beforeEnter() {
         contact.classList.add("active");
         contact.href = "../index.html";
-        projects.href = "../projects/index.html";
+        projects.href = "../projects/";
         contact.href = "./index.html";
       },
       beforeLeave() {
