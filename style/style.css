@@ -7,12 +7,13 @@
 }
 
 html {
-  font-size: 55%;
+  font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
 body {
   font-family: "Montserrat", sans-serif;
+  position: relative;
 }
 
 main {
@@ -149,7 +150,7 @@ nav ul {
 }
 
 .intro {
-  min-height: 86vh;
+  min-height: 90vh;
   width: 90%;
   margin: auto;
   display: -webkit-box;
