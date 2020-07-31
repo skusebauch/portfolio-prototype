@@ -237,7 +237,7 @@ nav ul {
 }
 
 svg {
-  width: 80%;
+  width: 90%;
 }
 
 #plant-left {
@@ -456,6 +456,7 @@ svg {
   width: 90%;
   margin: auto;
   min-height: 90vh;
+  margin-bottom: 5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -483,10 +484,6 @@ svg {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 40rem;
-}
-
-.photo {
-  margin-bottom: 5rem;
 }
 
 .form-section {
