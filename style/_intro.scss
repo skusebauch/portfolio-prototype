@@ -6,7 +6,7 @@
 nav {
   @include flex(space-between, center, row);
   min-height: 10vh;
-  width: 60%;
+  width: 50%;
   flex-wrap: wrap;
   .logo {
     @include flex(flex-start, center, row);
@@ -69,8 +69,16 @@ nav {
 }
 
 .intro-text,
-.intro-images {
-  flex: 1 1 40rem;
+.intro-image {
+  flex: 1 1 50rem;
+}
+
+.intro-image {
+  @include flex(center, center, row);
+}
+
+svg {
+  width: 80%;
 }
 
 #plant-left {

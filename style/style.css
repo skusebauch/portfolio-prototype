@@ -15,6 +15,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+main {
+  margin-bottom: 5rem;
+}
+
 h1 {
   font-size: 2.5rem;
 }
@@ -97,7 +101,7 @@ nav {
       -ms-flex-direction: row;
           flex-direction: row;
   min-height: 10vh;
-  width: 60%;
+  width: 50%;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -209,10 +213,30 @@ nav ul {
 }
 
 .intro-text,
-.intro-images {
+.intro-image {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
+      -ms-flex: 1 1 50rem;
+          flex: 1 1 50rem;
+}
+
+.intro-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+svg {
+  width: 80%;
 }
 
 #plant-left {
@@ -313,9 +337,6 @@ nav ul {
   .splash {
     display: none;
   }
-  svg {
-    width: 80%;
-  }
   nav {
     width: 100%;
   }
@@ -324,6 +345,15 @@ nav ul {
   }
   .main-header .logo {
     margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 942px) {
+  .intro-image {
+    text-align: center;
+  }
+  .intro-text {
+    text-align: center;
   }
 }
 

@@ -5,9 +5,6 @@
   .splash {
     display: none;
   }
-  svg {
-    width: 80%;
-  }
   nav {
     width: 100%;
   }
@@ -16,6 +13,15 @@
     .logo {
       margin-left: 4rem;
     }
+  }
+}
+
+@media screen and (max-width: 942px) {
+  .intro-image {
+    text-align: center;
+  }
+  .intro-text {
+    text-align: center;
   }
 }
 
