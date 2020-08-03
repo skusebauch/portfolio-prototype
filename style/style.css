@@ -208,6 +208,18 @@ nav ul {
   margin-right: 5rem;
 }
 
+.intro-social img {
+  -webkit-transition: -webkit-transform 0.5s ease;
+  transition: -webkit-transform 0.5s ease;
+  transition: transform 0.5s ease;
+  transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.intro-social img:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
 .active {
   border-bottom: 3px solid #3d4956;
   padding: 1.5rem 3rem;
@@ -218,6 +230,25 @@ nav ul {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 50rem;
           flex: 1 1 50rem;
+}
+
+.intro-text p,
+.intro-image p {
+  line-height: 1.5;
+}
+
+.cta {
+  display: inline-block;
+  -webkit-transition: color, -webkit-transform 0.5s ease;
+  transition: color, -webkit-transform 0.5s ease;
+  transition: color, transform 0.5s ease;
+  transition: color, transform 0.5s ease, -webkit-transform 0.5s ease;
+}
+
+.cta:hover {
+  color: #499aff;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .intro-image {

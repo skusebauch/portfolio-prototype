@@ -61,6 +61,12 @@ nav {
   a {
     margin-right: 5rem;
   }
+  img {
+    transition: transform 0.5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 
 .active {
@@ -71,6 +77,18 @@ nav {
 .intro-text,
 .intro-image {
   flex: 1 1 50rem;
+  p {
+    line-height: 1.5;
+  }
+}
+
+.cta {
+  display: inline-block;
+  transition: color, transform 0.5s ease;
+  &:hover {
+    color: #499aff;
+    transform: scale(1.1);
+  }
 }
 
 .intro-image {
